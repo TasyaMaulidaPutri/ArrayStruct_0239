@@ -22,4 +22,14 @@ int main()
         cout << "Masukkan alamat = ";
         cin >> mhs[i].alamat;
     }
+    cout << endl;
+    cout << "Menampilkan Data" << endl;
+    cout << endl;
+    for (int i = 0; i< 4; i++)
+    {
+        cout << "Mahaiswa ke-" << i + 1 << endl; 
+        cin >> mhs[i].nim;
+        cin >> mhs[i].nama;
+        cin >> mhs[i].alamat;
+    }
 }
