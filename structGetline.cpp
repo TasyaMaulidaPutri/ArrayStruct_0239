@@ -25,6 +25,7 @@ int main()
         cin >> mhs[i].nim;
         cin.ignore();
         cout << "Masukan nama= ";
+        getline(cin, mhs[i].nama);
         cout << "Masukan kota = ";
         cin >> mhs[i].alamat.kota;
         cout << "Masukan provinsi = ";
